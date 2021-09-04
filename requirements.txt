@@ -1,0 +1,11 @@
+certifi==2020.12.5
+chardet==4.0.0
+colorama==0.4.4
+commonmark==0.9.1
+idna==2.10
+Pygments==2.8.1
+PyMySQL==1.0.2
+requests==2.25.1
+rich==10.1.0
+typing-extensions==3.7.4.3
+urllib3==1.26.4

@@ -9,7 +9,6 @@
     <p align="center">
     <a href="https://brianleek.me/documentation/brians-xbox-ip-resolver/"><strong>Explore the docs »</strong></a>
   </p>
-  <br />
     <p align="center">
     <a href="https://briansxboxresolver.com/"><strong>Explore the website »</strong></a>
   </p>

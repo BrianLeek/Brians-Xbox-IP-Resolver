@@ -383,7 +383,7 @@ while valid_input == False:
                     DatabaseFunctions.connect()
 
                     InputFromIPLog.iplog_file_from_question()
-                    if iplog_file_from == "app" or "AppNET" or "appnet" or iplog_file_from == "ApparitionNET" or iplog_file_from == "ApparitionNET Studios":
+                    if iplog_file_from.lower() in ["app", "appnet", "apparitionnet", "apparitionnet studios"]:
                         try:
                             InputFromIPLog.format_ip_log_apparitionnet()
                             inputfromiplog.insert_data_apparitionnet()

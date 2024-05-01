@@ -86,7 +86,7 @@ class DatabaseFunctions:
             sys.exit()
 
     def remove_duplicates():
-        cursor.execute("DELETE FROM userinfo WHERE id NOT IN (SELECT MIN(id) FROM userinfo GROUP BY gamertag)")
+        cursor.execute("DELETE FROM userinfo WHERE id NOT IN (SELECT MIN(id) FROM userinfo GROUP BY ip)")
         num_duplicates_removed = cursor.rowcount
         print(f"{num_duplicates_removed} duplicates removed successfully.")
         return num_duplicates_removed

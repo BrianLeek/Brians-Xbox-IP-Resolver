@@ -314,10 +314,6 @@ while valid_input == False:
         SearchFunctions.search_input()
         GetInformationFunctions.search_results(gamertag_search_input)
 
-        while not SearchFunctions.search_input() == "":
-            SearchFunctions.search_input()
-            GetInformationFunctions.search_results()
-
         DatabaseFunctions.close()
 
         valid_input = True
